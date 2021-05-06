@@ -35,6 +35,6 @@ function handleSetDate() {
 
 setInterval(() => {
     handleSetDate();
-}, 3600000)
+}, 3600000) // 1 hour
 
-handleSetDate();
+window.addEventListener('DOMContentLoaded', handleSetDate);
