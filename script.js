@@ -11,6 +11,8 @@ const alarm = new Audio('alarm.mp3');
 days.classList.remove('hide');
 hours.classList.remove('hide');
 
+// navigator.permissions.request('audio')
+
 function handleSetDate() {
     if (currentDay === 2) {
         days.classList.add('hide');
